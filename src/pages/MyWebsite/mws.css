@@ -1,0 +1,141 @@
+.inicial
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicial img
+{
+   
+    width: 650px;
+    border-radius: 30px 30px;
+}
+
+.text
+{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.text p
+{
+    font-size: 20px;
+}
+
+.mediano
+{
+    display: flex;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 290px;
+    padding-right: 300px;
+}
+
+.cartão
+{
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    width: 270px;
+    margin-left: 29px;
+    background-color: #b7dfe9;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px;
+    transition: all.3s;
+    font-size: 20px;
+}
+
+.cartão:hover
+{
+    transform: scale(1.1);
+}
+
+.cartão h3
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.casual
+{
+    border-radius: 40px;
+}
+
+.fitness
+{
+    border-radius: 40px;
+}
+
+.titulo 
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgb(148, 140, 140);
+}
+
+.titulodois
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.subtitulo
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.final
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+p
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.button
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    transition: all.3s;
+}
+
+.button:hover
+{
+    transform: scale(1.1);
+}
+
